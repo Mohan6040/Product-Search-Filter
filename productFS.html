@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProductFS App</title>
+    <!-- Include Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- Include your custom CSS file -->
+    <link rel="stylesheet" href="productfs.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+        <h1>
+            ClipCART
+        </h1>
+      <div id="search-container">
+        <input type="search" id="search-input" placeholder="Search Product name here..." />
+        <button id="search">Search</button>
+      </div>
+      <div id="button">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('Top-Wear')">Top-Wear</button>
+        <button class="button-value" onclick="filterProduct('Bottom-Wear')">Bottom-wear</button>
+        <button class="button-value" onclick="filterProduct('Jacket')">Jacket</button>
+        <button class="button-value" onclick="filterProduct('Watch')">Watch</button>
+      </div>
+      <div id="products"></div>
+    </div>
+    <!-- Include your JavaScript file -->
+    <script src="productfs.js"></script>
+  </body>
+</html>

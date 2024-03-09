@@ -1,4 +1,5 @@
-# **Demo Link  : **  https://productsearchfilter6040.netlify.app
+# **Demo Link  : ** 
+https://productsearchfilter6040.netlify.app
 
 # **ClipCART - ProductFS App**
 ClipCART is a dynamic web application that allows users to explore a variety of products categorized into Top-Wear, Bottom-Wear, Jackets, and Watches. Users can search for specific products and filter them based on categories using an intuitive interface.
